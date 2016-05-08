@@ -1,0 +1,33 @@
+{
+  luxe:{
+    window: {
+      width: 640,
+      height: 480,
+      title:'shadertest',
+      fullscreen:false,
+      resizable:true,
+      borderless:false
+    }
+  },
+
+  project : {
+    name : 'simple_shader_test',
+    version : '0.0.1',
+    author : 'Rich Searle',
+
+    app : {
+      name : 'simple_shader_test',
+      package : 'com.hypertrifle.simpleshadertest'
+    },
+
+    build : {
+      dependencies : {
+        luxe : '*',
+      }
+    },
+
+    files : {
+      assets : 'assets/'
+    }
+  }
+}
